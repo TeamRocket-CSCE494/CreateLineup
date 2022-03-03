@@ -84,39 +84,39 @@ class _CreateLineupPageState extends State<CreateLineupPage> {
           // horizontal).
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Spacer(),
+            const Spacer(),
             Text(
               '$teamname',
               style: Theme.of(context).textTheme.headline4,
             ),
-            Spacer(),
-            Text(
-              'Stock list goes below. The names of the stocks should appear in the red boxes'
+            const Spacer(),
+            const Text(
+              'Team name will go where it says "Test." Stock list goes below. The names of the stocks should appear in the red boxes'
             ),
-            Spacer(),
+            const Spacer(),
             Row(
               // this is where the actual stocks are gonna be displayed
 
               // stocks
               children: [
-                Spacer(),
+                const Spacer(),
                 Container(width: 100, height: 100, color: Color(0xffd62839)),
-                Spacer(),
+                const Spacer(),
                 Container(width: 100, height: 100, color: Color(0xffd62839)),
-                Spacer(),
+                const Spacer(),
                 Container(width: 100, height: 100, color: Color(0xffd62839)),
-                Spacer(),
+                const Spacer(),
                 Container(width: 100, height: 100, color: Color(0xffd62839)),
-                Spacer(),
+                const Spacer(),
                 Container(width: 100, height: 100, color: Color(0xffd62839)),
-                Spacer(),
+                const Spacer(),
                 ],
             ),
-            Spacer(),
-            Text("The blue part is the area where all the other stocks will go"),
-            Spacer(),
+            const Spacer(),
+            const Text("The blue part is the area where all the other stocks will go"),
+            const Spacer(),
             Container(width: 500, height: 300, color: Colors.lightBlue,),
-            Spacer(),
+            const Spacer(),
           ],
         ),
       ),
